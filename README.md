@@ -1,3 +1,3 @@
-JavaScript fraction calculator.
-Supports +,-,*,/
-You can add any number of fractions.
+JavaScript fraction calculator.<br/>
+Supports +,-,*,/<br/>
+You can add any number of fractions.<br/>
