@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraction Calc - Alexander Tkachenko</title>
+    <style>
+        form {display: inline-block; margin:0 auto;}
+        input { width: 4em;}
+        #data-in { display: inline-block; }
+        #error { color: red;}
+        .fraction { display: inline-block; vertical-align: middle;margin: 0 1em; }
+    </style>
+</head>
+<body>
+    <form name="calc">
+        <div id="data-in"></div>
+        <button type="submit">=</button>
+        <div class="fraction">
+            <input type="text" readonly id="resultNumerator" />
+            <hr />
+            <input type="text" readonly id="resultDenominator" />
+        </div>
+        <p id="error"></p>
+        <p><a id="add-button" href="#">ADD FRACTION</a></p>
+    </form>
+
+    <script src="calc.js"></script>
+</body>
+</html>
